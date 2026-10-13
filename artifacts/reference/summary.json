@@ -1,0 +1,33 @@
+{
+  "collection": {
+    "episodes": 80,
+    "samples": 17600,
+    "expert_successes": 80,
+    "expert_success_rate": 1.0,
+    "mean_final_distance_m": 9.995095891749169e-05,
+    "max_final_distance_m": 0.00011425532783818083
+  },
+  "training": {
+    "train_samples": 14080,
+    "validation_samples": 3520,
+    "epochs": 120,
+    "best_validation_mse": 0.00023990593035705388,
+    "final_train_mse": 0.00024911347109909086,
+    "training_seconds": 27.7497497999575
+  },
+  "evaluation": {
+    "episodes": 50,
+    "success_radius_m": 0.01,
+    "successes": 50,
+    "success_rate": 1.0,
+    "mean_final_distance_m": 0.0022073306112701543,
+    "p95_final_distance_m": 0.009001159688815756,
+    "mean_policy_latency_ms": 0.20325855454545452,
+    "p95_policy_latency_ms": 0.4322049999999999,
+    "total_safety_events": 0
+  },
+  "plots": [
+    "artifacts\\reference\\learning_curve.png",
+    "artifacts\\reference\\evaluation_trials.png"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "episodes": 80,
+  "samples": 17600,
+  "expert_successes": 80,
+  "expert_success_rate": 1.0,
+  "mean_final_distance_m": 9.995095891749169e-05,
+  "max_final_distance_m": 0.00011425532783818083
+}

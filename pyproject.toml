@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dexterous-hand-learning"
+version = "0.1.0"
+description = "MuJoCo dexterous-hand teleoperation, demonstration collection, and behavior cloning"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "mujoco>=3.1",
+  "torch>=2.2",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

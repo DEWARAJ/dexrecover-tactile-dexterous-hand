@@ -1,0 +1,513 @@
+{
+  "model": "MuJoCo Menagerie Wonik Allegro Hand V3",
+  "actuated_dof": 16,
+  "episodes": 100,
+  "successes": 100,
+  "success_rate": 1.0,
+  "mean_joint_rmse_rad": 0.010776290922201129,
+  "mean_hand_object_contacts": 2.0,
+  "criterion": "joint RMSE < 0.08 rad and >=2 hand-object contacts",
+  "domain_randomization": "object mass 0.65-1.40x, friction 0.60-1.50x, object pose and joint initialization",
+  "trials": [
+    {
+      "joint_rmse_rad": 0.010389934897745754,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011631914676428134,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010420203026700102,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01009824290956882,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010356224902834216,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011495552279830233,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009966699395731795,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010688341329983564,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01163400176515014,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009800675110623236,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012441782587401883,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009844347830250464,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012082807819905249,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010730650436783435,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010791658553183167,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010486213380085445,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012134036076942158,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009931366789951943,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010799506327343462,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01177938582104132,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010606586052514777,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01116844010307157,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01074446665588355,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011679244315272829,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01050397018264087,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010855770780836885,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010631499678297296,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010481731095483815,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01163520882777559,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010243072297948902,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01006277864610156,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011684309252895458,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010284325338483209,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010304392566162985,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011415470754204085,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010324769991406578,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010938346910753342,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010369270117379663,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012045424818861178,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01176661287296887,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010724563041303804,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010255922507840383,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010882609963643264,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010268541085099715,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012635543840371286,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010092286622064598,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009837382250367564,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010635367554930273,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010194776146831043,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010694833298965017,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010543181279194767,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011282042585771956,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010799073915277792,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011142607881454103,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01139096465440659,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010781591229872226,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012811134849452958,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010294463942441219,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010579662322618338,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.0108485398092417,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01099557086498707,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011129108875286191,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010845848954378888,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009935805325701154,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01087645472881723,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01057151203228097,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011120292817173744,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009825206402175641,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010351722976328992,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01047408542664284,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.00972040675205396,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011124763498928374,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010375340350656312,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01041087966669631,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010591552095244457,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011249850133085007,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01072538784444233,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011202583854223978,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010661819079978539,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.009771006399038518,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010424655633211058,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010246526627195565,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01329899866799516,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010126560674044974,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010176893318152054,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010048535692957262,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010509710630684448,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010610737873540858,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010058746742691053,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010874584825162032,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010033301091921885,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010599298327611287,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01153713324894819,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.0103448057729189,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.011450895173358837,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010437443568476085,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010240636981368517,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.012326126310654191,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.01021935327382102,
+      "hand_object_contacts": 2,
+      "success": true
+    },
+    {
+      "joint_rmse_rad": 0.010160623749702745,
+      "hand_object_contacts": 2,
+      "success": true
+    }
+  ]
+}

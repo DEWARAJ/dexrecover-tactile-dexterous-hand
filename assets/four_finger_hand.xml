@@ -1,0 +1,60 @@
+<mujoco model="four_finger_transport_hand">
+  <compiler angle="radian" inertiafromgeom="true"/>
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+  <size nconmax="100" njmax="500"/>
+  <default>
+    <joint damping="2" armature="0.01"/>
+    <geom condim="4" friction="1.5 0.01 0.002" solref="0.004 1" solimp="0.9 0.95 0.001"/>
+    <position kp="220" kv="24" ctrllimited="true"/>
+  </default>
+  <visual>
+    <headlight ambient="0.35 0.35 0.35" diffuse="0.75 0.75 0.75" specular="0.2 0.2 0.2"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global azimuth="135" elevation="-28"/>
+  </visual>
+  <worldbody>
+    <light pos="0 0 1.2" dir="0 0 -1"/>
+    <geom name="floor" type="plane" size="1 1 0.1" rgba="0.86 0.89 0.92 1" friction="1.2 0.01 0.002"/>
+    <geom name="target" type="cylinder" pos="0.14 0.08 0.001" size="0.055 0.002" rgba="0.12 0.65 0.40 0.32" contype="0" conaffinity="0"/>
+
+    <body name="palm" pos="0 0 0.15">
+      <joint name="palm_x" type="slide" axis="1 0 0" range="-0.28 0.28"/>
+      <joint name="palm_y" type="slide" axis="0 1 0" range="-0.22 0.22"/>
+      <joint name="palm_z" type="slide" axis="0 0 1" range="-0.02 0.10"/>
+      <geom name="palm_geom" type="box" size="0.055 0.055 0.014" mass="0.65" rgba="0.10 0.30 0.52 1"/>
+
+      <body name="finger_x_pos" pos="0.070 0 -0.055">
+        <joint name="finger_x_pos_slide" type="slide" axis="-1 0 0" range="0 0.047"/>
+        <geom type="box" size="0.010 0.014 0.050" mass="0.09" rgba="0.20 0.55 0.82 1"/>
+      </body>
+      <body name="finger_x_neg" pos="-0.070 0 -0.055">
+        <joint name="finger_x_neg_slide" type="slide" axis="1 0 0" range="0 0.047"/>
+        <geom type="box" size="0.010 0.014 0.050" mass="0.09" rgba="0.20 0.55 0.82 1"/>
+      </body>
+      <body name="finger_y_pos" pos="0 0.070 -0.055">
+        <joint name="finger_y_pos_slide" type="slide" axis="0 -1 0" range="0 0.047"/>
+        <geom type="box" size="0.014 0.010 0.050" mass="0.09" rgba="0.20 0.55 0.82 1"/>
+      </body>
+      <body name="finger_y_neg" pos="0 -0.070 -0.055">
+        <joint name="finger_y_neg_slide" type="slide" axis="0 1 0" range="0 0.047"/>
+        <geom type="box" size="0.014 0.010 0.050" mass="0.09" rgba="0.20 0.55 0.82 1"/>
+      </body>
+    </body>
+
+    <body name="cube" pos="-0.12 0 0.026">
+      <freejoint name="cube_free"/>
+      <geom name="cube_geom" type="box" size="0.024 0.024 0.024" mass="0.055" rgba="0.92 0.42 0.16 1" friction="1.8 0.02 0.003"/>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <position name="palm_x_act" joint="palm_x" ctrlrange="-0.28 0.28" forcerange="-120 120"/>
+    <position name="palm_y_act" joint="palm_y" ctrlrange="-0.22 0.22" forcerange="-120 120"/>
+    <position name="palm_z_act" joint="palm_z" ctrlrange="-0.02 0.10" forcerange="-120 120"/>
+    <position name="finger_x_pos_act" joint="finger_x_pos_slide" ctrlrange="0 0.047" forcerange="-80 80"/>
+    <position name="finger_x_neg_act" joint="finger_x_neg_slide" ctrlrange="0 0.047" forcerange="-80 80"/>
+    <position name="finger_y_pos_act" joint="finger_y_pos_slide" ctrlrange="0 0.047" forcerange="-80 80"/>
+    <position name="finger_y_neg_act" joint="finger_y_neg_slide" ctrlrange="0 0.047" forcerange="-80 80"/>
+  </actuator>
+</mujoco>
+

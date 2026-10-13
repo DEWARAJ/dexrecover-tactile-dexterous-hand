@@ -1,0 +1,313 @@
+{
+  "episodes": 50,
+  "success_radius_m": 0.01,
+  "successes": 50,
+  "success_rate": 1.0,
+  "mean_final_distance_m": 0.0022073306112701543,
+  "p95_final_distance_m": 0.009001159688815756,
+  "mean_policy_latency_ms": 0.20325855454545452,
+  "p95_policy_latency_ms": 0.4322049999999999,
+  "total_safety_events": 0,
+  "trials": [
+    {
+      "episode": 0,
+      "success": true,
+      "final_distance_m": 0.0010204615760654471,
+      "safety_events": 0
+    },
+    {
+      "episode": 1,
+      "success": true,
+      "final_distance_m": 0.0008416780974157872,
+      "safety_events": 0
+    },
+    {
+      "episode": 2,
+      "success": true,
+      "final_distance_m": 0.0009379744040533727,
+      "safety_events": 0
+    },
+    {
+      "episode": 3,
+      "success": true,
+      "final_distance_m": 0.0005995125371927807,
+      "safety_events": 0
+    },
+    {
+      "episode": 4,
+      "success": true,
+      "final_distance_m": 0.009408478322600477,
+      "safety_events": 0
+    },
+    {
+      "episode": 5,
+      "success": true,
+      "final_distance_m": 0.0010240359142951916,
+      "safety_events": 0
+    },
+    {
+      "episode": 6,
+      "success": true,
+      "final_distance_m": 0.0006230269387719734,
+      "safety_events": 0
+    },
+    {
+      "episode": 7,
+      "success": true,
+      "final_distance_m": 0.0012848936560866336,
+      "safety_events": 0
+    },
+    {
+      "episode": 8,
+      "success": true,
+      "final_distance_m": 0.0014262444434854941,
+      "safety_events": 0
+    },
+    {
+      "episode": 9,
+      "success": true,
+      "final_distance_m": 0.000891531246052239,
+      "safety_events": 0
+    },
+    {
+      "episode": 10,
+      "success": true,
+      "final_distance_m": 0.0007967826072069989,
+      "safety_events": 0
+    },
+    {
+      "episode": 11,
+      "success": true,
+      "final_distance_m": 0.0009912778682923556,
+      "safety_events": 0
+    },
+    {
+      "episode": 12,
+      "success": true,
+      "final_distance_m": 0.007907145101745464,
+      "safety_events": 0
+    },
+    {
+      "episode": 13,
+      "success": true,
+      "final_distance_m": 0.002977141550177111,
+      "safety_events": 0
+    },
+    {
+      "episode": 14,
+      "success": true,
+      "final_distance_m": 0.0007078909783400533,
+      "safety_events": 0
+    },
+    {
+      "episode": 15,
+      "success": true,
+      "final_distance_m": 0.009114642028200658,
+      "safety_events": 0
+    },
+    {
+      "episode": 16,
+      "success": true,
+      "final_distance_m": 0.0012787418578679474,
+      "safety_events": 0
+    },
+    {
+      "episode": 17,
+      "success": true,
+      "final_distance_m": 0.0021681609899237408,
+      "safety_events": 0
+    },
+    {
+      "episode": 18,
+      "success": true,
+      "final_distance_m": 0.006858820754650983,
+      "safety_events": 0
+    },
+    {
+      "episode": 19,
+      "success": true,
+      "final_distance_m": 0.00037367664656491525,
+      "safety_events": 0
+    },
+    {
+      "episode": 20,
+      "success": true,
+      "final_distance_m": 0.0006752060869597362,
+      "safety_events": 0
+    },
+    {
+      "episode": 21,
+      "success": true,
+      "final_distance_m": 0.0016936792544488958,
+      "safety_events": 0
+    },
+    {
+      "episode": 22,
+      "success": true,
+      "final_distance_m": 0.0005761585889371845,
+      "safety_events": 0
+    },
+    {
+      "episode": 23,
+      "success": true,
+      "final_distance_m": 0.0003193620348173845,
+      "safety_events": 0
+    },
+    {
+      "episode": 24,
+      "success": true,
+      "final_distance_m": 0.0006056312592752327,
+      "safety_events": 0
+    },
+    {
+      "episode": 25,
+      "success": true,
+      "final_distance_m": 0.0012175711786385826,
+      "safety_events": 0
+    },
+    {
+      "episode": 26,
+      "success": true,
+      "final_distance_m": 0.0008203891674775866,
+      "safety_events": 0
+    },
+    {
+      "episode": 27,
+      "success": true,
+      "final_distance_m": 0.0007954168115130029,
+      "safety_events": 0
+    },
+    {
+      "episode": 28,
+      "success": true,
+      "final_distance_m": 0.0005238533993615211,
+      "safety_events": 0
+    },
+    {
+      "episode": 29,
+      "success": true,
+      "final_distance_m": 0.000843553404121229,
+      "safety_events": 0
+    },
+    {
+      "episode": 30,
+      "success": true,
+      "final_distance_m": 0.0002759508494628362,
+      "safety_events": 0
+    },
+    {
+      "episode": 31,
+      "success": true,
+      "final_distance_m": 0.0012023429987823018,
+      "safety_events": 0
+    },
+    {
+      "episode": 32,
+      "success": true,
+      "final_distance_m": 0.0005017677884837397,
+      "safety_events": 0
+    },
+    {
+      "episode": 33,
+      "success": true,
+      "final_distance_m": 0.0014757711846375746,
+      "safety_events": 0
+    },
+    {
+      "episode": 34,
+      "success": true,
+      "final_distance_m": 0.0009177158795023784,
+      "safety_events": 0
+    },
+    {
+      "episode": 35,
+      "success": true,
+      "final_distance_m": 0.0008818903524051926,
+      "safety_events": 0
+    },
+    {
+      "episode": 36,
+      "success": true,
+      "final_distance_m": 0.0016107769828242996,
+      "safety_events": 0
+    },
+    {
+      "episode": 37,
+      "success": true,
+      "final_distance_m": 0.00577874260209102,
+      "safety_events": 0
+    },
+    {
+      "episode": 38,
+      "success": true,
+      "final_distance_m": 0.006349827161137172,
+      "safety_events": 0
+    },
+    {
+      "episode": 39,
+      "success": true,
+      "final_distance_m": 0.0008867382408939739,
+      "safety_events": 0
+    },
+    {
+      "episode": 40,
+      "success": true,
+      "final_distance_m": 0.0015481374558284574,
+      "safety_events": 0
+    },
+    {
+      "episode": 41,
+      "success": true,
+      "final_distance_m": 0.0008706448618609178,
+      "safety_events": 0
+    },
+    {
+      "episode": 42,
+      "success": true,
+      "final_distance_m": 0.0028836727821462426,
+      "safety_events": 0
+    },
+    {
+      "episode": 43,
+      "success": true,
+      "final_distance_m": 0.0006996900544501611,
+      "safety_events": 0
+    },
+    {
+      "episode": 44,
+      "success": true,
+      "final_distance_m": 0.0006485820939344264,
+      "safety_events": 0
+    },
+    {
+      "episode": 45,
+      "success": true,
+      "final_distance_m": 0.008862459051789765,
+      "safety_events": 0
+    },
+    {
+      "episode": 46,
+      "success": true,
+      "final_distance_m": 0.009593522448945143,
+      "safety_events": 0
+    },
+    {
+      "episode": 47,
+      "success": true,
+      "final_distance_m": 0.0008910073071027371,
+      "safety_events": 0
+    },
+    {
+      "episode": 48,
+      "success": true,
+      "final_distance_m": 0.0024770474199015363,
+      "safety_events": 0
+    },
+    {
+      "episode": 49,
+      "success": true,
+      "final_distance_m": 0.002707304342787853,
+      "safety_events": 0
+    }
+  ]
+}

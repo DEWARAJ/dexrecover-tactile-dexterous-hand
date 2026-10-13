@@ -1,0 +1,1823 @@
+{
+  "baseline_fixed_grasp": {
+    "episodes": 100,
+    "successes": 49,
+    "success_rate": 0.49,
+    "mean_displacement_m": 0.007725701052188867,
+    "p95_displacement_m": 0.006416938491111317,
+    "mean_slip_events": 38.38,
+    "trials": [
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0001558679470845951,
+        "slip_events": 52,
+        "peak_object_speed_mps": 0.03902179793995256,
+        "peak_normal_force_n": 1.180070190696496,
+        "disturbance_force_n": 0.28797706308341964
+      },
+      {
+        "success": false,
+        "final_contacts": 0,
+        "displacement_m": 0.3455792162805551,
+        "slip_events": 74,
+        "peak_object_speed_mps": 1.9205638827873552,
+        "peak_normal_force_n": 1.4552495935814516,
+        "disturbance_force_n": 0.3683230542019087
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0005068687293319967,
+        "slip_events": 52,
+        "peak_object_speed_mps": 0.04376592765980666,
+        "peak_normal_force_n": 1.3926918821452279,
+        "disturbance_force_n": 0.22862885933151766
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00034544792668965744,
+        "slip_events": 1,
+        "peak_object_speed_mps": 0.01708651788870787,
+        "peak_normal_force_n": 1.4277934162437946,
+        "disturbance_force_n": 0.2730804251545419
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003235262749414245,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.03237977652399153,
+        "peak_normal_force_n": 1.0287201368831471,
+        "disturbance_force_n": 0.3652164398269928
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00018546087846072298,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.05233706172945074,
+        "peak_normal_force_n": 1.158127541989919,
+        "disturbance_force_n": 0.24822449556523507
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0002271658361091091,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.0787217717210591,
+        "peak_normal_force_n": 1.181215640083631,
+        "disturbance_force_n": 0.2802007759060423
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00034900847453809414,
+        "slip_events": 29,
+        "peak_object_speed_mps": 0.11196169209037933,
+        "peak_normal_force_n": 1.6974011387597567,
+        "disturbance_force_n": 0.38347945947171996
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00011274799949277486,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.019547720773131255,
+        "peak_normal_force_n": 1.2138816224774407,
+        "disturbance_force_n": 0.20620857256515637
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.000273459879312516,
+        "slip_events": 28,
+        "peak_object_speed_mps": 0.04615197767709233,
+        "peak_normal_force_n": 1.2046998934525492,
+        "disturbance_force_n": 0.33890336282792066
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.009669072297380014,
+        "slip_events": 69,
+        "peak_object_speed_mps": 0.11470091766774038,
+        "peak_normal_force_n": 1.258065078463083,
+        "disturbance_force_n": 0.33365243042590187
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00025382572004080894,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.002078139366207878,
+        "peak_normal_force_n": 0.9191925996471197,
+        "disturbance_force_n": 0.21529998136851763
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0020624922635904077,
+        "slip_events": 71,
+        "peak_object_speed_mps": 0.0908980776262936,
+        "peak_normal_force_n": 1.1053257103037923,
+        "disturbance_force_n": 0.3979802569201438
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.04206026972108513,
+        "slip_events": 73,
+        "peak_object_speed_mps": 0.13721997758267787,
+        "peak_normal_force_n": 1.4617001493417499,
+        "disturbance_force_n": 0.4046211773299835
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00020425720021580488,
+        "slip_events": 53,
+        "peak_object_speed_mps": 0.06481677539005508,
+        "peak_normal_force_n": 1.3743749939185976,
+        "disturbance_force_n": 0.350097521648312
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003514100335647353,
+        "slip_events": 30,
+        "peak_object_speed_mps": 0.03986750881556219,
+        "peak_normal_force_n": 1.2716755837360436,
+        "disturbance_force_n": 0.25721622243586695
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0010790247326473437,
+        "slip_events": 71,
+        "peak_object_speed_mps": 0.1282088191583024,
+        "peak_normal_force_n": 1.3380109545106262,
+        "disturbance_force_n": 0.3552614118112569
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.002106040464959217,
+        "slip_events": 5,
+        "peak_object_speed_mps": 0.03996876067188326,
+        "peak_normal_force_n": 0.7384759566947761,
+        "disturbance_force_n": 0.31125409693781936
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00023716447931848862,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.011120922760188784,
+        "peak_normal_force_n": 0.7722315497813954,
+        "disturbance_force_n": 0.2419939818786434
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00023674979859439197,
+        "slip_events": 51,
+        "peak_object_speed_mps": 0.08280364995177755,
+        "peak_normal_force_n": 1.6825199157271855,
+        "disturbance_force_n": 0.42056146915091064
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0007048211664278672,
+        "slip_events": 71,
+        "peak_object_speed_mps": 0.0718264757736156,
+        "peak_normal_force_n": 1.1030029195186573,
+        "disturbance_force_n": 0.3975637064916726
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00042136414379529243,
+        "slip_events": 53,
+        "peak_object_speed_mps": 0.03430098747341661,
+        "peak_normal_force_n": 0.9202635705563862,
+        "disturbance_force_n": 0.24487220085351893
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0015368740121221116,
+        "slip_events": 32,
+        "peak_object_speed_mps": 0.1324676288305983,
+        "peak_normal_force_n": 1.5756370088857148,
+        "disturbance_force_n": 0.43571570349628863
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00020792464312756356,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.04710345527367491,
+        "peak_normal_force_n": 1.3615580597089827,
+        "disturbance_force_n": 0.2464523622583464
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0001253941764525055,
+        "slip_events": 13,
+        "peak_object_speed_mps": 0.016549113404468664,
+        "peak_normal_force_n": 0.9943218238878668,
+        "disturbance_force_n": 0.329363875898935
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00042382245416835014,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.0940903444495708,
+        "peak_normal_force_n": 1.1120331438695839,
+        "disturbance_force_n": 0.303090149268891
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00013180607108960636,
+        "slip_events": 52,
+        "peak_object_speed_mps": 0.02705110631112194,
+        "peak_normal_force_n": 0.9816145955334046,
+        "disturbance_force_n": 0.23337532662810448
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004827853641481621,
+        "slip_events": 29,
+        "peak_object_speed_mps": 0.11044986874258245,
+        "peak_normal_force_n": 1.6660193562733705,
+        "disturbance_force_n": 0.4162569789067618
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0008827067193445556,
+        "slip_events": 29,
+        "peak_object_speed_mps": 0.07002653306487919,
+        "peak_normal_force_n": 1.3489983867070015,
+        "disturbance_force_n": 0.3978253743686918
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0006875156645073724,
+        "slip_events": 72,
+        "peak_object_speed_mps": 0.06635210840518735,
+        "peak_normal_force_n": 1.0297366463860862,
+        "disturbance_force_n": 0.25926875641035974
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00032160572047454556,
+        "slip_events": 26,
+        "peak_object_speed_mps": 0.03804956368609956,
+        "peak_normal_force_n": 1.2897043410165874,
+        "disturbance_force_n": 0.27880127699779167
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0001842426788819241,
+        "slip_events": 51,
+        "peak_object_speed_mps": 0.046122361920513825,
+        "peak_normal_force_n": 1.3677511772525595,
+        "disturbance_force_n": 0.4020107242820108
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00016214388234153917,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.0036902238601612554,
+        "peak_normal_force_n": 0.9409899096843395,
+        "disturbance_force_n": 0.37242829858316706
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.006356343749448478,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.14193423221088908,
+        "peak_normal_force_n": 1.2958089026641462,
+        "disturbance_force_n": 0.4364625941935937
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00040370561367197936,
+        "slip_events": 25,
+        "peak_object_speed_mps": 0.025829741283605493,
+        "peak_normal_force_n": 1.0939876262389978,
+        "disturbance_force_n": 0.2828623950584236
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00034655286375423765,
+        "slip_events": 25,
+        "peak_object_speed_mps": 0.02429719249904785,
+        "peak_normal_force_n": 1.2686524305263118,
+        "disturbance_force_n": 0.29357980627087965
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00010891997560723282,
+        "slip_events": 52,
+        "peak_object_speed_mps": 0.049039770188403525,
+        "peak_normal_force_n": 1.3376712159969775,
+        "disturbance_force_n": 0.28635441834665937
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0008709259959338606,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.02287650720810612,
+        "peak_normal_force_n": 0.7757687172908636,
+        "disturbance_force_n": 0.3553980418849195
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00026181874400980627,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.06254414443270256,
+        "peak_normal_force_n": 1.3413011383923659,
+        "disturbance_force_n": 0.41993656471436364
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.001463347770693789,
+        "slip_events": 71,
+        "peak_object_speed_mps": 0.19028112584805193,
+        "peak_normal_force_n": 1.6773932487653562,
+        "disturbance_force_n": 0.41674781426625146
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00018580867751012708,
+        "slip_events": 31,
+        "peak_object_speed_mps": 0.040012722237876656,
+        "peak_normal_force_n": 1.3039636483371866,
+        "disturbance_force_n": 0.22919576617968235
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00042452564536905586,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.04968249458825585,
+        "peak_normal_force_n": 1.30685498209533,
+        "disturbance_force_n": 0.35116031965409106
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00025157640594304236,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.00854970862242908,
+        "peak_normal_force_n": 1.447542276999402,
+        "disturbance_force_n": 0.31703039851794723
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00024964854230316314,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.016072362874826458,
+        "peak_normal_force_n": 1.3277012049325632,
+        "disturbance_force_n": 0.44834798684034827
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002838751307482775,
+        "slip_events": 3,
+        "peak_object_speed_mps": 0.007344560181125719,
+        "peak_normal_force_n": 1.3827100819292282,
+        "disturbance_force_n": 0.23242061508962755
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00028158347742931046,
+        "slip_events": 30,
+        "peak_object_speed_mps": 0.026177037361743004,
+        "peak_normal_force_n": 0.8011745955171373,
+        "disturbance_force_n": 0.24979848169624363
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.000991311240869933,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.053677438076941475,
+        "peak_normal_force_n": 0.8605748118002206,
+        "disturbance_force_n": 0.3151596918190245
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003868681737110122,
+        "slip_events": 4,
+        "peak_object_speed_mps": 0.03583642811605973,
+        "peak_normal_force_n": 0.9155459429529792,
+        "disturbance_force_n": 0.36387004275085855
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00012938122633290028,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.007445661049182138,
+        "peak_normal_force_n": 0.8254665773032865,
+        "disturbance_force_n": 0.3259664614630168
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.000432484229155873,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.034985218889049846,
+        "peak_normal_force_n": 0.8664294882098662,
+        "disturbance_force_n": 0.26197043525497477
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00024670773109577787,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.007179957502050424,
+        "peak_normal_force_n": 1.6035524567697386,
+        "disturbance_force_n": 0.4373203589144136
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00029189903393035243,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.06028281488483983,
+        "peak_normal_force_n": 1.2266185976054762,
+        "disturbance_force_n": 0.3790747580368209
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0024341974533653708,
+        "slip_events": 72,
+        "peak_object_speed_mps": 0.11198181396782605,
+        "peak_normal_force_n": 1.155801021570872,
+        "disturbance_force_n": 0.32631024058936753
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.000495192185869627,
+        "slip_events": 57,
+        "peak_object_speed_mps": 0.043398611084121054,
+        "peak_normal_force_n": 0.8932185254831755,
+        "disturbance_force_n": 0.3303981777177011
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00756823858270533,
+        "slip_events": 69,
+        "peak_object_speed_mps": 0.11532505091198925,
+        "peak_normal_force_n": 0.981776143156525,
+        "disturbance_force_n": 0.28467322229932074
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00030055985840041015,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.05641749984007239,
+        "peak_normal_force_n": 1.3873470655514368,
+        "disturbance_force_n": 0.42699385434733317
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00023070695892148327,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.006347160441741204,
+        "peak_normal_force_n": 1.1024373334471838,
+        "disturbance_force_n": 0.3088537374436
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003002400137224285,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.01041854061184771,
+        "peak_normal_force_n": 1.4676588348194546,
+        "disturbance_force_n": 0.34645397241401066
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.000344673315372757,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.05805963686475013,
+        "peak_normal_force_n": 1.1571013430132566,
+        "disturbance_force_n": 0.3555212930856807
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005453670869507259,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.026514902443337953,
+        "peak_normal_force_n": 0.8422962262985255,
+        "disturbance_force_n": 0.31667252604916807
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0007605691842523749,
+        "slip_events": 60,
+        "peak_object_speed_mps": 0.026680477436140822,
+        "peak_normal_force_n": 0.7097064151879928,
+        "disturbance_force_n": 0.24396798453465546
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00048511980256282685,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.05020722257366702,
+        "peak_normal_force_n": 0.8502346135960727,
+        "disturbance_force_n": 0.25491810721747105
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0007273369891445711,
+        "slip_events": 73,
+        "peak_object_speed_mps": 0.11865436569785508,
+        "peak_normal_force_n": 1.428787584993462,
+        "disturbance_force_n": 0.3908093723578374
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0001627542631272639,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.030696243545494467,
+        "peak_normal_force_n": 1.1870792895783722,
+        "disturbance_force_n": 0.21379861917475132
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00012808641944374525,
+        "slip_events": 50,
+        "peak_object_speed_mps": 0.027729211558232138,
+        "peak_normal_force_n": 1.2055933128902994,
+        "disturbance_force_n": 0.29671131259578876
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00024050696886830807,
+        "slip_events": 4,
+        "peak_object_speed_mps": 0.047203891968594314,
+        "peak_normal_force_n": 1.415485987735602,
+        "disturbance_force_n": 0.3709951338966624
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0004838552054062745,
+        "slip_events": 53,
+        "peak_object_speed_mps": 0.07641794140096504,
+        "peak_normal_force_n": 1.4611727020869267,
+        "disturbance_force_n": 0.33622711358615937
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0007086575050270019,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.07409598402986779,
+        "peak_normal_force_n": 1.32496076781704,
+        "disturbance_force_n": 0.3454127610660311
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0002866863074969339,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.08090475618461176,
+        "peak_normal_force_n": 1.1930533756945643,
+        "disturbance_force_n": 0.29770984468946887
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00012191744964755653,
+        "slip_events": 49,
+        "peak_object_speed_mps": 0.0403950787776593,
+        "peak_normal_force_n": 1.4772554044249824,
+        "disturbance_force_n": 0.4187604198247178
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002657546781707038,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.009704345185688615,
+        "peak_normal_force_n": 1.0526664181054797,
+        "disturbance_force_n": 0.402724093180581
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00014946908703237092,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.04559945742393538,
+        "peak_normal_force_n": 1.368544303897139,
+        "disturbance_force_n": 0.2823794465101202
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00018972961201283464,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.0372937440163168,
+        "peak_normal_force_n": 1.210416253205162,
+        "disturbance_force_n": 0.2831305817467182
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00016488000751468582,
+        "slip_events": 52,
+        "peak_object_speed_mps": 0.046566372383332506,
+        "peak_normal_force_n": 1.3126833149225634,
+        "disturbance_force_n": 0.30703747462736475
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002800681573460821,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.02736917373470776,
+        "peak_normal_force_n": 1.1907385104521744,
+        "disturbance_force_n": 0.4412845386522273
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005639923391731557,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.06434978476191869,
+        "peak_normal_force_n": 1.3664620203449411,
+        "disturbance_force_n": 0.40205866082642583
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003355975458061977,
+        "slip_events": 2,
+        "peak_object_speed_mps": 0.03660530832404427,
+        "peak_normal_force_n": 1.1030906238182625,
+        "disturbance_force_n": 0.29694162786028894
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0036265422920302996,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.03719467448067994,
+        "peak_normal_force_n": 0.7869886964588559,
+        "disturbance_force_n": 0.29399100028535635
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00015574601883539007,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.022622280870125484,
+        "peak_normal_force_n": 1.0479140362417034,
+        "disturbance_force_n": 0.20884315700910774
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00012059208205298015,
+        "slip_events": 49,
+        "peak_object_speed_mps": 0.03142909314083145,
+        "peak_normal_force_n": 1.172374731407448,
+        "disturbance_force_n": 0.44506326614778274
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00016900972157639618,
+        "slip_events": 52,
+        "peak_object_speed_mps": 0.04304009043103413,
+        "peak_normal_force_n": 1.214164372304705,
+        "disturbance_force_n": 0.3347802017072129
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00017072145059245092,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.008716337811084595,
+        "peak_normal_force_n": 1.174231670318747,
+        "disturbance_force_n": 0.2949227803375194
+      },
+      {
+        "success": false,
+        "final_contacts": 0,
+        "displacement_m": 0.3171616076070677,
+        "slip_events": 74,
+        "peak_object_speed_mps": 1.3732038914717082,
+        "peak_normal_force_n": 1.55781536667299,
+        "disturbance_force_n": 0.44855552741307575
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0003205392457073089,
+        "slip_events": 55,
+        "peak_object_speed_mps": 0.06179059930726358,
+        "peak_normal_force_n": 1.1949417000092317,
+        "disturbance_force_n": 0.3749404582821617
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00045207923364920684,
+        "slip_events": 30,
+        "peak_object_speed_mps": 0.060630870199957373,
+        "peak_normal_force_n": 1.039487790954305,
+        "disturbance_force_n": 0.25703162610115393
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0013330446816199445,
+        "slip_events": 7,
+        "peak_object_speed_mps": 0.04730925282642299,
+        "peak_normal_force_n": 0.9281769081275687,
+        "disturbance_force_n": 0.3985482665030512
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00018153953663241316,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.039355087951464966,
+        "peak_normal_force_n": 1.3692949814021274,
+        "disturbance_force_n": 0.24790044209487472
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 4.3250645572546146e-05,
+        "slip_events": 48,
+        "peak_object_speed_mps": 0.031774532049253706,
+        "peak_normal_force_n": 1.4514523387167348,
+        "disturbance_force_n": 0.3357723763038941
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005511449234453695,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.04172945297489311,
+        "peak_normal_force_n": 0.8640621364385777,
+        "disturbance_force_n": 0.3975506776900563
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0002822392732770728,
+        "slip_events": 49,
+        "peak_object_speed_mps": 0.027772806911350773,
+        "peak_normal_force_n": 0.9669523616662522,
+        "disturbance_force_n": 0.32637442808927325
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00035655575709217833,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.034376461850250305,
+        "peak_normal_force_n": 1.2999238871654286,
+        "disturbance_force_n": 0.3300007455563888
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00015598246349297267,
+        "slip_events": 75,
+        "peak_object_speed_mps": 0.038386315465973965,
+        "peak_normal_force_n": 1.2538330615078903,
+        "disturbance_force_n": 0.2862047201299457
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00013509212516407302,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.006185150315964419,
+        "peak_normal_force_n": 1.442840592022534,
+        "disturbance_force_n": 0.2949165470673961
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00019767051701630273,
+        "slip_events": 12,
+        "peak_object_speed_mps": 0.01359294779173847,
+        "peak_normal_force_n": 0.7442834664290391,
+        "disturbance_force_n": 0.2104381092550956
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00021110567402718916,
+        "slip_events": 4,
+        "peak_object_speed_mps": 0.019318261147101168,
+        "peak_normal_force_n": 0.901239814513866,
+        "disturbance_force_n": 0.2233862285229821
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0005604249382334887,
+        "slip_events": 53,
+        "peak_object_speed_mps": 0.05927992722215075,
+        "peak_normal_force_n": 1.275075567739357,
+        "disturbance_force_n": 0.27409028602599694
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.001016969340207743,
+        "slip_events": 24,
+        "peak_object_speed_mps": 0.028300567271971507,
+        "peak_normal_force_n": 0.757733985028752,
+        "disturbance_force_n": 0.2591126495293996
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 7.142711039210064e-05,
+        "slip_events": 4,
+        "peak_object_speed_mps": 0.007211064165917269,
+        "peak_normal_force_n": 1.0506093605468345,
+        "disturbance_force_n": 0.22061345148411796
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0001907950104869838,
+        "slip_events": 29,
+        "peak_object_speed_mps": 0.0293966454681453,
+        "peak_normal_force_n": 1.1933343628478246,
+        "disturbance_force_n": 0.23406603571729215
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00027250073106157945,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.020291644554593716,
+        "peak_normal_force_n": 1.2163692845544851,
+        "disturbance_force_n": 0.33665651149253095
+      }
+    ]
+  },
+  "tactile_recovery": {
+    "episodes": 100,
+    "successes": 82,
+    "success_rate": 0.82,
+    "mean_displacement_m": 0.0070634939486936684,
+    "p95_displacement_m": 0.006307642337375367,
+    "mean_slip_events": 18.54,
+    "trials": [
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00034907756993226256,
+        "slip_events": 15,
+        "peak_object_speed_mps": 0.0342312360063398,
+        "peak_normal_force_n": 1.4324832648242314,
+        "disturbance_force_n": 0.28797706308341964
+      },
+      {
+        "success": false,
+        "final_contacts": 0,
+        "displacement_m": 0.2809782392248882,
+        "slip_events": 74,
+        "peak_object_speed_mps": 1.34611358415936,
+        "peak_normal_force_n": 1.4996435116352016,
+        "disturbance_force_n": 0.3683230542019087
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00018693563285298903,
+        "slip_events": 16,
+        "peak_object_speed_mps": 0.04076240909502602,
+        "peak_normal_force_n": 1.5238943445140616,
+        "disturbance_force_n": 0.22862885933151766
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003460943755528126,
+        "slip_events": 1,
+        "peak_object_speed_mps": 0.01708651788870787,
+        "peak_normal_force_n": 1.4277934162437946,
+        "disturbance_force_n": 0.2730804251545419
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003235262749414245,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.03237977652399153,
+        "peak_normal_force_n": 1.0287201368831471,
+        "disturbance_force_n": 0.3652164398269928
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0017223674431456584,
+        "slip_events": 34,
+        "peak_object_speed_mps": 0.048047297822803606,
+        "peak_normal_force_n": 1.410220499893563,
+        "disturbance_force_n": 0.24822449556523507
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0016511866108802236,
+        "slip_events": 35,
+        "peak_object_speed_mps": 0.07206827461863793,
+        "peak_normal_force_n": 1.5180681718457132,
+        "disturbance_force_n": 0.2802007759060423
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0017972454909563234,
+        "slip_events": 28,
+        "peak_object_speed_mps": 0.06285943825328315,
+        "peak_normal_force_n": 1.472363368528988,
+        "disturbance_force_n": 0.38347945947171996
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004725307623956869,
+        "slip_events": 22,
+        "peak_object_speed_mps": 0.019547720773131255,
+        "peak_normal_force_n": 1.395299873713494,
+        "disturbance_force_n": 0.20620857256515637
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004440063212780633,
+        "slip_events": 12,
+        "peak_object_speed_mps": 0.04615197767709233,
+        "peak_normal_force_n": 1.3052054152357666,
+        "disturbance_force_n": 0.33890336282792066
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.008480876082748275,
+        "slip_events": 72,
+        "peak_object_speed_mps": 0.10322181012829455,
+        "peak_normal_force_n": 1.623141556470951,
+        "disturbance_force_n": 0.33365243042590187
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00025382572004080894,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.002078139366207878,
+        "peak_normal_force_n": 0.9191925996471197,
+        "disturbance_force_n": 0.21529998136851763
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.003843250701297681,
+        "slip_events": 34,
+        "peak_object_speed_mps": 0.08538348830242062,
+        "peak_normal_force_n": 1.3629564517885024,
+        "disturbance_force_n": 0.3979802569201438
+      },
+      {
+        "success": false,
+        "final_contacts": 2,
+        "displacement_m": 0.03461423546951673,
+        "slip_events": 36,
+        "peak_object_speed_mps": 0.1311919955084226,
+        "peak_normal_force_n": 1.4665639285912622,
+        "disturbance_force_n": 0.4046211773299835
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005081969029368265,
+        "slip_events": 20,
+        "peak_object_speed_mps": 0.06481677539005508,
+        "peak_normal_force_n": 1.894576869221853,
+        "disturbance_force_n": 0.350097521648312
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0016950079122668284,
+        "slip_events": 15,
+        "peak_object_speed_mps": 0.035773505044112114,
+        "peak_normal_force_n": 1.3585910215032897,
+        "disturbance_force_n": 0.25721622243586695
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0025151233231124953,
+        "slip_events": 32,
+        "peak_object_speed_mps": 0.12631869226525128,
+        "peak_normal_force_n": 1.7916611944275,
+        "disturbance_force_n": 0.3552614118112569
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0022594624640270592,
+        "slip_events": 5,
+        "peak_object_speed_mps": 0.04041711773764438,
+        "peak_normal_force_n": 0.7384759566947761,
+        "disturbance_force_n": 0.31125409693781936
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00023716447931848862,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.011120922760188784,
+        "peak_normal_force_n": 0.7722315497813954,
+        "disturbance_force_n": 0.2419939818786434
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00010410856686446699,
+        "slip_events": 17,
+        "peak_object_speed_mps": 0.08280364995177755,
+        "peak_normal_force_n": 1.8265192922706655,
+        "disturbance_force_n": 0.42056146915091064
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0027324163983629755,
+        "slip_events": 33,
+        "peak_object_speed_mps": 0.06180163408892528,
+        "peak_normal_force_n": 1.2767333437904678,
+        "disturbance_force_n": 0.3975637064916726
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0006582767389241824,
+        "slip_events": 18,
+        "peak_object_speed_mps": 0.034300947075546394,
+        "peak_normal_force_n": 1.0084851512500228,
+        "disturbance_force_n": 0.24487220085351893
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0024234863638530717,
+        "slip_events": 31,
+        "peak_object_speed_mps": 0.11161123083635222,
+        "peak_normal_force_n": 1.6841609332504284,
+        "disturbance_force_n": 0.43571570349628863
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0013042590956314608,
+        "slip_events": 31,
+        "peak_object_speed_mps": 0.04710345527367491,
+        "peak_normal_force_n": 1.4492602875262253,
+        "disturbance_force_n": 0.2464523622583464
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004220342886141523,
+        "slip_events": 10,
+        "peak_object_speed_mps": 0.016432070713635286,
+        "peak_normal_force_n": 1.0834938451765321,
+        "disturbance_force_n": 0.329363875898935
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0010942058008212483,
+        "slip_events": 38,
+        "peak_object_speed_mps": 0.09409094979646528,
+        "peak_normal_force_n": 1.5331441990162107,
+        "disturbance_force_n": 0.303090149268891
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00028787134077688537,
+        "slip_events": 13,
+        "peak_object_speed_mps": 0.02243082044390104,
+        "peak_normal_force_n": 1.1550931313671036,
+        "disturbance_force_n": 0.23337532662810448
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0021554290542072836,
+        "slip_events": 29,
+        "peak_object_speed_mps": 0.04414596170675277,
+        "peak_normal_force_n": 1.363836245398436,
+        "disturbance_force_n": 0.4162569789067618
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0016218382633595946,
+        "slip_events": 14,
+        "peak_object_speed_mps": 0.07002653306487919,
+        "peak_normal_force_n": 1.4560283409913852,
+        "disturbance_force_n": 0.3978253743686918
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0027465033357689165,
+        "slip_events": 36,
+        "peak_object_speed_mps": 0.06635243492100236,
+        "peak_normal_force_n": 1.263621686037542,
+        "disturbance_force_n": 0.25926875641035974
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00032952794506553216,
+        "slip_events": 9,
+        "peak_object_speed_mps": 0.008535694383457028,
+        "peak_normal_force_n": 1.2866500024035599,
+        "disturbance_force_n": 0.27880127699779167
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0005230361214487478,
+        "slip_events": 13,
+        "peak_object_speed_mps": 0.045180693961532924,
+        "peak_normal_force_n": 1.6038477317592599,
+        "disturbance_force_n": 0.4020107242820108
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00016214388234153917,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.0036902238601612554,
+        "peak_normal_force_n": 0.9409899096843395,
+        "disturbance_force_n": 0.37242829858316706
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.006268456956757102,
+        "slip_events": 72,
+        "peak_object_speed_mps": 0.14193381290148938,
+        "peak_normal_force_n": 1.5145698853746152,
+        "disturbance_force_n": 0.4364625941935937
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004922649586353602,
+        "slip_events": 8,
+        "peak_object_speed_mps": 0.02583015875756158,
+        "peak_normal_force_n": 1.0939876262389978,
+        "disturbance_force_n": 0.2828623950584236
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003598743851748809,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.021166449657559,
+        "peak_normal_force_n": 1.2686524305263118,
+        "disturbance_force_n": 0.29357980627087965
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005935342014461282,
+        "slip_events": 17,
+        "peak_object_speed_mps": 0.049039770188403525,
+        "peak_normal_force_n": 1.734839125567909,
+        "disturbance_force_n": 0.28635441834665937
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0010407068568079115,
+        "slip_events": 9,
+        "peak_object_speed_mps": 0.02287650720810612,
+        "peak_normal_force_n": 0.7757687172908636,
+        "disturbance_force_n": 0.3553980418849195
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00028989132801615056,
+        "slip_events": 8,
+        "peak_object_speed_mps": 0.06230201148366733,
+        "peak_normal_force_n": 1.506578392129928,
+        "disturbance_force_n": 0.41993656471436364
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0034347614644699804,
+        "slip_events": 34,
+        "peak_object_speed_mps": 0.19028127348071275,
+        "peak_normal_force_n": 1.9368593447801588,
+        "disturbance_force_n": 0.41674781426625146
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0018073541781929324,
+        "slip_events": 18,
+        "peak_object_speed_mps": 0.028861243597954677,
+        "peak_normal_force_n": 1.480846807768494,
+        "disturbance_force_n": 0.22919576617968235
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005255158236936039,
+        "slip_events": 6,
+        "peak_object_speed_mps": 0.04927844771696979,
+        "peak_normal_force_n": 1.3732453126414192,
+        "disturbance_force_n": 0.35116031965409106
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00025157640594304236,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.00854970862242908,
+        "peak_normal_force_n": 1.447542276999402,
+        "disturbance_force_n": 0.31703039851794723
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00024964854230316314,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.016072362874826458,
+        "peak_normal_force_n": 1.3277012049325632,
+        "disturbance_force_n": 0.44834798684034827
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002813564673664559,
+        "slip_events": 4,
+        "peak_object_speed_mps": 0.007344560181125719,
+        "peak_normal_force_n": 1.3827100819292282,
+        "disturbance_force_n": 0.23242061508962755
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.001844406821437255,
+        "slip_events": 16,
+        "peak_object_speed_mps": 0.026177483715802002,
+        "peak_normal_force_n": 0.9473086897293762,
+        "disturbance_force_n": 0.24979848169624363
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0019268446646050564,
+        "slip_events": 36,
+        "peak_object_speed_mps": 0.053677421589014285,
+        "peak_normal_force_n": 1.2330822764032723,
+        "disturbance_force_n": 0.3151596918190245
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00040726647583290204,
+        "slip_events": 3,
+        "peak_object_speed_mps": 0.03583642811605973,
+        "peak_normal_force_n": 0.9177778782918331,
+        "disturbance_force_n": 0.36387004275085855
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00027862286823555877,
+        "slip_events": 8,
+        "peak_object_speed_mps": 0.007445661049182138,
+        "peak_normal_force_n": 0.8254665773032865,
+        "disturbance_force_n": 0.3259664614630168
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0023007250036495884,
+        "slip_events": 28,
+        "peak_object_speed_mps": 0.03404455323810452,
+        "peak_normal_force_n": 0.9713113188549403,
+        "disturbance_force_n": 0.26197043525497477
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00024670773109577787,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.007179957502050424,
+        "peak_normal_force_n": 1.6035524567697386,
+        "disturbance_force_n": 0.4373203589144136
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0008277968153758773,
+        "slip_events": 18,
+        "peak_object_speed_mps": 0.05987215312035748,
+        "peak_normal_force_n": 1.448154323396952,
+        "disturbance_force_n": 0.3790747580368209
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0034974860863361715,
+        "slip_events": 38,
+        "peak_object_speed_mps": 0.11198169272507909,
+        "peak_normal_force_n": 1.4690770740455368,
+        "disturbance_force_n": 0.32631024058936753
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.001311361097046405,
+        "slip_events": 17,
+        "peak_object_speed_mps": 0.0422533984806597,
+        "peak_normal_force_n": 1.0922678005465718,
+        "disturbance_force_n": 0.3303981777177011
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.007052164569122437,
+        "slip_events": 70,
+        "peak_object_speed_mps": 0.07626575678417291,
+        "peak_normal_force_n": 1.2705975168307628,
+        "disturbance_force_n": 0.28467322229932074
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004425044957856462,
+        "slip_events": 11,
+        "peak_object_speed_mps": 0.054520415794586254,
+        "peak_normal_force_n": 1.5517978499365475,
+        "disturbance_force_n": 0.42699385434733317
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00023070695892148327,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.006347160441741204,
+        "peak_normal_force_n": 1.1024373334471838,
+        "disturbance_force_n": 0.3088537374436
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003002400137224285,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.01041854061184771,
+        "peak_normal_force_n": 1.4676588348194546,
+        "disturbance_force_n": 0.34645397241401066
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0009046169631369731,
+        "slip_events": 37,
+        "peak_object_speed_mps": 0.05805963686475013,
+        "peak_normal_force_n": 1.3006501538070845,
+        "disturbance_force_n": 0.3555212930856807
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0006529767818819726,
+        "slip_events": 8,
+        "peak_object_speed_mps": 0.0263246134695265,
+        "peak_normal_force_n": 0.8422962262985255,
+        "disturbance_force_n": 0.31667252604916807
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.001028007050779222,
+        "slip_events": 19,
+        "peak_object_speed_mps": 0.026680430826701133,
+        "peak_normal_force_n": 0.81424660368246,
+        "disturbance_force_n": 0.24396798453465546
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0013679506123084996,
+        "slip_events": 38,
+        "peak_object_speed_mps": 0.05020725414499092,
+        "peak_normal_force_n": 1.0694693531951214,
+        "disturbance_force_n": 0.25491810721747105
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0018887634119644774,
+        "slip_events": 34,
+        "peak_object_speed_mps": 0.11024983178584781,
+        "peak_normal_force_n": 1.7990875358573528,
+        "disturbance_force_n": 0.3908093723578374
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0010086550390132627,
+        "slip_events": 35,
+        "peak_object_speed_mps": 0.030696409692100305,
+        "peak_normal_force_n": 1.3220845979220157,
+        "disturbance_force_n": 0.21379861917475132
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00038566454988820195,
+        "slip_events": 10,
+        "peak_object_speed_mps": 0.02753942647615349,
+        "peak_normal_force_n": 1.2781871081782743,
+        "disturbance_force_n": 0.29671131259578876
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00027592680819868285,
+        "slip_events": 8,
+        "peak_object_speed_mps": 0.04660519752998177,
+        "peak_normal_force_n": 1.6295572044968527,
+        "disturbance_force_n": 0.3709951338966624
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003369972293587017,
+        "slip_events": 18,
+        "peak_object_speed_mps": 0.07384705584645218,
+        "peak_normal_force_n": 1.628924988610933,
+        "disturbance_force_n": 0.33622711358615937
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0019154943834208933,
+        "slip_events": 35,
+        "peak_object_speed_mps": 0.06656942131494586,
+        "peak_normal_force_n": 1.4814667167412503,
+        "disturbance_force_n": 0.3454127610660311
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0012686430165661485,
+        "slip_events": 36,
+        "peak_object_speed_mps": 0.08090487239197294,
+        "peak_normal_force_n": 1.548097717337022,
+        "disturbance_force_n": 0.29770984468946887
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00013732426312205106,
+        "slip_events": 11,
+        "peak_object_speed_mps": 0.0403950787776593,
+        "peak_normal_force_n": 1.679647524636258,
+        "disturbance_force_n": 0.4187604198247178
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002657546781707038,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.009704345185688615,
+        "peak_normal_force_n": 1.0526664181054797,
+        "disturbance_force_n": 0.402724093180581
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.000995332101308558,
+        "slip_events": 18,
+        "peak_object_speed_mps": 0.04461359336536481,
+        "peak_normal_force_n": 1.6549831820475485,
+        "disturbance_force_n": 0.2823794465101202
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005574334047556497,
+        "slip_events": 20,
+        "peak_object_speed_mps": 0.0372937440163168,
+        "peak_normal_force_n": 1.4680678621770182,
+        "disturbance_force_n": 0.2831305817467182
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00022979254583830862,
+        "slip_events": 15,
+        "peak_object_speed_mps": 0.041887669948123527,
+        "peak_normal_force_n": 1.5220826985347238,
+        "disturbance_force_n": 0.30703747462736475
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002800681573460821,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.02736917373470776,
+        "peak_normal_force_n": 1.1907385104521744,
+        "disturbance_force_n": 0.4412845386522273
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0008019731909115099,
+        "slip_events": 7,
+        "peak_object_speed_mps": 0.06133857057627802,
+        "peak_normal_force_n": 1.4000391046876435,
+        "disturbance_force_n": 0.40205866082642583
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0003431767234603557,
+        "slip_events": 1,
+        "peak_object_speed_mps": 0.03660530832404427,
+        "peak_normal_force_n": 1.1030906238182625,
+        "disturbance_force_n": 0.29694162786028894
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.004044463677063641,
+        "slip_events": 12,
+        "peak_object_speed_mps": 0.03719467448067994,
+        "peak_normal_force_n": 0.815561338086642,
+        "disturbance_force_n": 0.29399100028535635
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0010878335574992146,
+        "slip_events": 15,
+        "peak_object_speed_mps": 0.022622963750428864,
+        "peak_normal_force_n": 1.2054057326124752,
+        "disturbance_force_n": 0.20884315700910774
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00034521332188325695,
+        "slip_events": 12,
+        "peak_object_speed_mps": 0.03142906364316496,
+        "peak_normal_force_n": 1.5095500992435376,
+        "disturbance_force_n": 0.44506326614778274
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004776142153329017,
+        "slip_events": 17,
+        "peak_object_speed_mps": 0.035779300468220414,
+        "peak_normal_force_n": 1.3769410540020766,
+        "disturbance_force_n": 0.3347802017072129
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00017072145059245092,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.008716337811084595,
+        "peak_normal_force_n": 1.174231670318747,
+        "disturbance_force_n": 0.2949227803375194
+      },
+      {
+        "success": false,
+        "final_contacts": 0,
+        "displacement_m": 0.27883627360678176,
+        "slip_events": 74,
+        "peak_object_speed_mps": 1.2932994332232757,
+        "peak_normal_force_n": 1.486530275472853,
+        "disturbance_force_n": 0.44855552741307575
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0005888748909778648,
+        "slip_events": 20,
+        "peak_object_speed_mps": 0.061790323519783454,
+        "peak_normal_force_n": 1.6357138571817378,
+        "disturbance_force_n": 0.3749404582821617
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0022709690389268386,
+        "slip_events": 31,
+        "peak_object_speed_mps": 0.04407362581068015,
+        "peak_normal_force_n": 1.2592441912622743,
+        "disturbance_force_n": 0.25703162610115393
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0016636335402718688,
+        "slip_events": 7,
+        "peak_object_speed_mps": 0.04798303397665459,
+        "peak_normal_force_n": 0.970530181685171,
+        "disturbance_force_n": 0.3985482665030512
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0006278337064066357,
+        "slip_events": 36,
+        "peak_object_speed_mps": 0.039355087951464966,
+        "peak_normal_force_n": 1.4814238542896276,
+        "disturbance_force_n": 0.24790044209487472
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00012200592858694244,
+        "slip_events": 11,
+        "peak_object_speed_mps": 0.031774532049253706,
+        "peak_normal_force_n": 1.8165404484018013,
+        "disturbance_force_n": 0.3357723763038941
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0006078909923478206,
+        "slip_events": 4,
+        "peak_object_speed_mps": 0.03608352368388853,
+        "peak_normal_force_n": 0.8819816732990277,
+        "disturbance_force_n": 0.3975506776900563
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0006490568473050089,
+        "slip_events": 10,
+        "peak_object_speed_mps": 0.027528913016790595,
+        "peak_normal_force_n": 1.007725457979409,
+        "disturbance_force_n": 0.32637442808927325
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00035655575709217833,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.034376461850250305,
+        "peak_normal_force_n": 1.2999238871654286,
+        "disturbance_force_n": 0.3300007455563888
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0004399084661817908,
+        "slip_events": 17,
+        "peak_object_speed_mps": 0.037888777601111596,
+        "peak_normal_force_n": 1.6143753365859583,
+        "disturbance_force_n": 0.2862047201299457
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00013509212516407302,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.006185150315964419,
+        "peak_normal_force_n": 1.442840592022534,
+        "disturbance_force_n": 0.2949165470673961
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.0007183845146638203,
+        "slip_events": 9,
+        "peak_object_speed_mps": 0.013534305528039374,
+        "peak_normal_force_n": 0.7765434550235047,
+        "disturbance_force_n": 0.2104381092550956
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00039840272622575934,
+        "slip_events": 9,
+        "peak_object_speed_mps": 0.019119684713343663,
+        "peak_normal_force_n": 0.910497819467762,
+        "disturbance_force_n": 0.2233862285229821
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0002274771510725638,
+        "slip_events": 18,
+        "peak_object_speed_mps": 0.05340380453338928,
+        "peak_normal_force_n": 1.3683710463839835,
+        "disturbance_force_n": 0.27409028602599694
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0013605462512895942,
+        "slip_events": 12,
+        "peak_object_speed_mps": 0.028370768612487884,
+        "peak_normal_force_n": 0.764519097358273,
+        "disturbance_force_n": 0.2591126495293996
+      },
+      {
+        "success": false,
+        "final_contacts": 1,
+        "displacement_m": 0.00019075301245291532,
+        "slip_events": 7,
+        "peak_object_speed_mps": 0.0051903307829004024,
+        "peak_normal_force_n": 1.1272826388907955,
+        "disturbance_force_n": 0.22061345148411796
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.0006075733206541038,
+        "slip_events": 13,
+        "peak_object_speed_mps": 0.023102829377478706,
+        "peak_normal_force_n": 1.332607378661889,
+        "disturbance_force_n": 0.23406603571729215
+      },
+      {
+        "success": true,
+        "final_contacts": 2,
+        "displacement_m": 0.00027250073106157945,
+        "slip_events": 0,
+        "peak_object_speed_mps": 0.020291644554593716,
+        "peak_normal_force_n": 1.2163692845544851,
+        "disturbance_force_n": 0.33665651149253095
+      }
+    ]
+  },
+  "success_criterion": ">=2 final hand-object contacts and <10 mm displacement after a 0.20-0.45 N lateral disturbance"
+}
